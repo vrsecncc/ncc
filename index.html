@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+    <!-- google icons -->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hint.css/2.7.0/hint.min.css"
+        integrity="sha512-gnj0WGxmbeTgYXck9CyFjrdkEFcZE4xwnJb/nG3bcl5OlWHJ9ixRkJK0MDPtCytnO3IBIh0Omqawv0UPpl0LoA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="style.css">
+    <title>NCC VRSEC | Home</title>
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav>
+        <div class="left-nav">
+            <a href="#"><img src="images/ncc.png" alt="ncc-logo"></a>
+        </div>
+        <div class="right-nav">
+            <a href="index.html">home</a>
+            <a href="construction.html">activities</a>
+            <a href="construction.html">gallery</a>
+            <a href="construction.html">nominal roll</a>
+            <a href="suo.html">list of <span class="cap">suo</span> & <span class="cap">juo</span></a>
+            <a href="construction.html">cadets at various <span class="cap">mnc</span>'s</a>
+            <a href="ano.html">about <span class="cap">ano</span>'s</a>
+            <a href="construction.html">unit staff</a>
+        </div>
+        <div class="hamburger-icon">
+            <i class="material-symbols-outlined" onclick="openNav()">sort</i>
+        </div>
+    </nav>
+
+    <!-- mobile nav -->
+
+    <div id="myNav" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="overlay-content" id="overlay-links">
+            <a href="index.html">home</a>
+            <a href="construction.html">activities</a>
+            <a href="construction.html">gallery</a>
+            <a href="construction.html">nominal roll</a>
+            <a href="suo.html">list of <span class="cap">suo</span> & <span class="cap">juo</span></a>
+            <a href="construction.html">cadets at various <span class="cap">mnc's</span></a>
+            <a href="ano.html">about <span class="cap">ano</span></a>
+            <a href="construction.html">unit staff</a>
+        </div>
+    </div>
+
+    <!-- Swiper -->
+    <div class="main-slider">
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img draggable="false" src="images/img-2.jpg" alt="img"></div>
+                <div class="swiper-slide"><img draggable="false" src="images/1.jpg" alt="img"></div>
+                <!-- <div class="swiper-slide"><img src="images/img-3.jpg" alt="img"></div> -->
+                <!-- <div class="swiper-slide"><img draggable="false" src="images/img-4.png" alt="img"></div> -->
+                <div class="swiper-slide"><img draggable="false" src="images/hd-1.JPG" alt="img"></div>
+                <div class="swiper-slide"><img draggable="false" src="images/hd-2.JPG" alt="img"></div>
+                <!-- <div class="swiper-slide"><img draggable="false" src="images/3.jpg" alt="img"></div> -->
+                <!-- <div class="swiper-slide"><img draggable="false" src="images/4.jpg" alt="img"></div> -->
+                <div class="swiper-slide"><img draggable="false" src="images/6.jpg" alt="img"></div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+
+    <!-- objectives -->
+    <h1 class="objective-heading">objectives</h1>
+
+    <div class="objectives">
+        <div class="obj align-center">
+            <img draggable="false" class="align-center" src="images/r1.png" alt="objective">
+            <p>Prompting students at VRSEC to wallow in social and nation building activities.</p>
+        </div>
+        <div class="obj align-center">
+            <img draggable="false" class="align-center" src="images/r2.png" alt="objective">
+            <p>Preserve the need
+                of selfless service.</p>
+        </div>
+        <div class="obj align-center">
+            <img draggable="false" class="align-center" src="images/r3.png" alt="objective">
+            <p>
+                Identify the needs and problems of the community and involve them in problem solving process.</p>
+        </div>
+    </div>
+
+    <!-- Faculty Coordinators -->
+    <!-- <h1 class="faculty-heading">faculty coordinators</h1>
+
+    <div class="faculty-section">
+        <div class="faculty align-center">
+            <img draggable="false" class="align-center" src="images/principal.png" alt="principal">
+            <div class="info">
+                <a href="http://www.vrsiddhartha.ac.in/index.php/principal" class="bio">Dr.A.V.Ratna Prasad</a>
+                <p class="post">Principal, VRSEC.</p>
+                <a class="hint--top" data-hint="principal@vrsiddhartha.ac.in"
+                    href="mailto:principal@vrsiddhartha.ac.in">
+                    <p class="mail">mail principal</p>
+                </a>
+            </div>
+        </div>
+
+        <div class="faculty align-center">
+            <img draggable="false" class="align-center" src="images/faculty-2.jpeg" alt="CAPT. M.S.V.D. Sudarsan">
+            <div class="info">
+                <a href="#" class="bio">CAPT. M.S.V.D. Sudarsan</a>
+                <p class="post">NCC Programme Officer, VRSEC</p>
+                <a class="hint--top" data-hint="msvdsudarsanvrsec@gmail.com" href="mailto:msvdsudarsanvrsec@gmail.com">
+                    <p class="mail">mail Sudarsan</p>
+                </a>
+            </div>
+        </div>
+    </div> -->
+
+    <!-- contact -->
+    <div class="contact-us">
+        <!-- HTML !-->
+        <button class="button-3" role="button"><a href="contact.html">contact us</a></button>
+
+    </div>
+</body>
+<!-- Initialize Swiper -->
+<script>
+    var swiper = new Swiper(".mySwiper", {
+        spaceBetween: 30,
+        centeredSlides: true,
+        // loop: true,
+        autoplay: {
+            delay: 2500,
+            disableOnInteraction: false,
+        },
+        pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+        },
+        navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+        },
+    });
+</script>
+<script src="app.js"></script>
+
+</html>

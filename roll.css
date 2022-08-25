@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400;500;600;700;800&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    scroll-behavior: smooth;
+}
+
+img {
+    -drag: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+.cap {
+    text-transform: uppercase;
+}
+
+.hamburger-icon {
+    display: none;
+}
+
+.hamburger-icon i {
+    color: white;
+    cursor: pointer;
+    font-size: 2.4rem;
+}
+
+nav {
+    width: 100%;
+    z-index: 2;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background: rgba(0, 0, 0, 0.95);
+    height: 65px;
+}
+
+nav .left-nav {
+    z-index: 2;
+}
+
+nav .left-nav a img {
+    margin-top: 60px;
+}
+
+nav .right-nav a {
+    text-decoration: none;
+    padding: 0 15px;
+    color: white;
+    opacity: 0.6;
+    text-transform: capitalize;
+}
+
+nav .right-nav a:hover {
+    opacity: 1;
+}
+.cards-area{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem;
+}
+.area{
+    text-align: center;
+}
+.area h1{
+    font-weight: 400;
+    padding: 2rem;
+}
+.card-text-area{
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    padding: 0 1rem;
+    display: grid;
+    justify-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+}
+.card{
+    width: 350px;
+    height: 300px;
+    text-align: center;
+    border-radius: 30px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
+}
+.card-matter{
+
+    padding: 4rem 2rem;
+    padding-bottom: 1.6rem;
+    text-align: center;
+}
+.card-matter h3{
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+.card-matter p{
+    font-size: 24px;
+    margin-top: 25px;
+}
+.button{
+    width: 170px;
+    padding: .7rem;
+    border: none;
+    border-radius: 9px;
+    background-color: whitesmoke;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+}
+.button:hover{
+    cursor: pointer;
+    border: 1px solid;
+    font-size: 15px;
+}
